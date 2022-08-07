@@ -1,12 +1,12 @@
-# heroku-buildpack-system-fonts
+# heroku-buildpack-fonts-segoe-ui
 
-This buildpack makes it easy to install system fonts on Heroku [stacks](https://devcenter.heroku.com/articles/stack).
+This buildpack makes it easy to install Segoe UI font on Heroku [stacks](https://devcenter.heroku.com/articles/stack).
 
 ## Install
 
 ```bash
 # Add the buildpack
-heroku buildpacks:add --index 2 https://github.com/thatcleanlife/heroku-buildpack-system-fonts.git
+heroku buildpacks:add --index 1 https://github.com/DenverCoder1/heroku-buildpack-fonts-segoe-ui
 
 #Deploy
 git push heroku master
@@ -17,7 +17,3 @@ git push heroku master
 ```bash
 tar -czvf fonts.tar.gz ./fonts/
 ```
-
-| Fonts   |
-| ------- |
-| ✓ Arial |
